@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OctopusCinema</title>
-    <link rel="stylesheet" href="/css/moviedetails.css" />
-    <link rel="shortcut icon" href="/anhbtl/cinema.png" type="image/png" />
+    <link rel="stylesheet" href="../css/moviedetails.css" />
+    <link rel="shortcut icon" href="../anhbtl/cinema.png" type="image/png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,28 +14,35 @@
   </head>
 
   <body>
+
     <header class="bg-dark text-white text-center py-3">
       <h1 class="container-fluid">
         OctopusCinema
-
         <div class="dropdown" style="float: left">
-          <button class="dropbtn container-fluid">
-            <img src="../anhbtl/menu-ico.png" alt="" />
-          </button>
-          <div class="dropdown-content container-fluid" style="left: 0">
-            <li><a href="/OctopusCinema1.html">Trang chủ</a></li>
-            <li><a href="/seatprice/giave.html">Bảng giá vé</a></li>
-            <li><a href="#">Ưu đãi - Khuyến mại</a></li>
-            <li><a href="#">Liên hệ</a></li>
-            <li><a href="#">Về chúng tôi</a></li>
+          <nav class="dropbtn container-fluid">
+            <div class="ham-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
+          <div class="dropdown-content container-fluid">
+            <ul>
+              <li><a href="../OctopusCinema1.html">Trang chủ</a></li>
+              <li><a href="../login/login.html">Đăng nhập/Đăng kí</a></li>
+              <li><a href="../order/datve.html">Đặt vé</a></li>
+              <li><a href="../seatprice/giave.html" alt="_self">Bảng giá vé</a></li>
+              <li><a href="#">Ưu đãi và khuyến mãi</a></li>
+              <li><a href="#">Về chúng tôi</a></li>
+            </ul>
           </div>
         </div>
       </h1>
     </header>
 
     <div class="back-home">
-      <a href="/OctopusCinema1.html">Trang Chủ </a>
-      <span>| END GAME</span>
+      <a href="../OctopusCinema1.html">Trang Chủ </a>
+      <span>| QUỶ MÔN QUAN: GỌI HỒN</span>
     </div>
 
     <main class="container-fluid mt-4">
@@ -43,12 +50,12 @@
         <div class="list-group-item">
           <div class="img-responsive-wrap col-lg-12 col-md-488">
             <a href="#" class="img-inner">
-              <img alt="" title="End Game" src="../anhbtl/quy-mon-quan-goi-hon-thumb.jpg" />
+              <img alt="" title="QUỶ MÔN QUAN: GỌI HỒN(2023)" src="../anhbtl/quy-mon-quan-goi-hon-thumb.jpg" />
             </a>
             <ul class="movie-info">
               <li>
-                <h2 class="text-white">END GAME</h2>
-                Quỷ Môn Quan: Gọi Hồn Back Home 2023 Full HD Vietsub Thuyết Minh Là một bộ phim kinh dị Hồng Kông do đạo diễn Nate Ki chỉ đạo. Bộ phim này tập trung vào nhân vật chính Hướng Vinh, người từ Canada trở về Hong Kong để chăm sóc mẹ đang hôn mê. Sự trở về vào ngày Rằm Tháng 7 - thời điểm theo tín ngưỡng Đông Á có nhiều "cô hồn" trở lại thế gian - đẩy anh ta vào cuộc giao tranh giữa thế giới sống và thế giới bên kia.
+                <h2 class="text-white">QUỶ MÔN QUAN: GỌI HỒN</h2>
+                Quỷ Môn Quan: Gọi Hồn-Back Home 2023 Full HD Vietsub Thuyết Minh Là một bộ phim kinh dị Hồng Kông do đạo diễn Nate Ki chỉ đạo. Bộ phim này tập trung vào nhân vật chính Hướng Vinh, người từ Canada trở về Hong Kong để chăm sóc mẹ đang hôn mê. Sự trở về vào ngày Rằm Tháng 7 - thời điểm theo tín ngưỡng Đông Á có nhiều "cô hồn" trở lại thế gian - đẩy anh ta vào cuộc giao tranh giữa thế giới sống và thế giới bên kia.
 Với khả năng nhìn thấy ma từ khi còn nhỏ, Hướng Vinh phải đối mặt với hàng loạt sự kiện đáng sợ khi các vụ tự sát liên tục xảy ra và các linh hồn bất an trở lại. Quá khứ đen tối của anh bắt đầu trỗi dậy, báo hiệu cho một kỳ tăm tối sắp đến.
 Phim hứa hẹn mang đến câu chuyện đầy bí ẩn và đen tối, tạo nên không khí căng thẳng và kịch tính.
               </li>
@@ -120,7 +127,7 @@ Phim hứa hẹn mang đến câu chuyện đầy bí ẩn và đen tối, tạo
               </li>
             </ul>
           </div>
-          <button class="btn btn-primary"><a href="/oder/datve.html">Đặt vé</a></button>
+          <button class="btn btn-primary"><a href="../order/datve.html">Đặt vé</a></button>
           
         </div>
       </section>
